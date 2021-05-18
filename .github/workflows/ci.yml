@@ -1,0 +1,16 @@
+on: push
+name: CI
+
+jobs:
+  build:
+    name: Install dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+      - name: Set up Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: yarn install
+        run: yarn install
