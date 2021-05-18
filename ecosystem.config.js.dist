@@ -1,0 +1,13 @@
+module.exports = {
+  apps: [{
+    name: 'chia-dashboard-core',
+    script: './main.js',
+    instances : 'max',
+    exec_mode : 'cluster',
+    env: {
+      NODE_ENV: 'production',
+      DATABASE_URL: '',
+      JWT_SIGNING_SECRET: '',
+    },
+  }],
+};
