@@ -4,8 +4,8 @@
     "dependencies": {
         "@kidkarolis/not-so-fast": "^1.0.1",
         "@koa/cors": "^3.1.0",
-        "@sentry/integrations": "^6.4.1",
-        "@sentry/node": "^6.4.1",
+        "@sentry/integrations": "^6.8.0",
+        "@sentry/node": "^6.8.0",
         "axios": "^0.21.1",
         "bignumber.js": "^9.0.1",
         "jsonwebtoken": "^8.5.1",
@@ -14,7 +14,7 @@
         "koa-router": "^10.0.0",
         "lodash": "^4.17.21",
         "moment": "^2.29.1",
-        "mongoose": "^5.12.12",
+        "mongoose": "^5.13.0",
         "qs": "^6.10.1",
         "semver": "^7.3.5",
         "uuid": "^8.3.2"
