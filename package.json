@@ -9,7 +9,7 @@
         "axios": "^0.21.2",
         "bignumber.js": "^9.0.1",
         "jsonwebtoken": "^8.5.1",
-        "koa": "^2.13.1",
+        "koa": "^2.13.4",
         "koa-bodyparser": "^4.3.0",
         "koa-etag": "^4.0.0",
         "koa-router": "^10.1.1",
