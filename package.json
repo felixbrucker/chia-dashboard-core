@@ -23,5 +23,8 @@
     "scripts": {
         "start": "node main.js"
     },
-    "main": "main.js"
+    "main": "main.js",
+    "engines": {
+        "node": "^14"
+    }
 }
