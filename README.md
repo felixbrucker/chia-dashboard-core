@@ -7,7 +7,7 @@ The api powering https://dashboard.chia.foxypool.io. No support for users self-h
 
 #### Requirements
 
-- nodejs >= 12
+- nodejs >= 16
 - mongodb
 - at least one oauth provider
 - a reverse proxy for ssl termination (optional)
