@@ -5,7 +5,7 @@
         "@kidkarolis/not-so-fast": "^1.0.1",
         "@koa/cors": "^3.2.0",
         "@sentry/integrations": "^6.19.2",
-        "@sentry/node": "^6.19.2",
+        "@sentry/node": "^6.19.6",
         "axios": "^0.26.1",
         "bignumber.js": "^9.0.2",
         "jsonwebtoken": "^8.5.1",
