@@ -4,7 +4,7 @@
     "dependencies": {
         "@kidkarolis/not-so-fast": "^1.0.1",
         "@koa/cors": "^3.4.1",
-        "@sentry/integrations": "^7.7.0",
+        "@sentry/integrations": "^7.11.1",
         "@sentry/node": "^7.11.1",
         "axios": "^0.27.2",
         "bignumber.js": "^9.1.0",
