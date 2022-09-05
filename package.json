@@ -19,7 +19,7 @@
         "mongoose": "^6.5.3",
         "qs": "^6.11.0",
         "semver": "^7.3.7",
-        "uuid": "^8.3.2"
+        "uuid": "^9.0.0"
     },
     "scripts": {
         "start": "node --max_old_space_size=2048 main.js"
