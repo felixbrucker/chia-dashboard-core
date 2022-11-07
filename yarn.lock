@@ -711,13 +711,13 @@
     "@sentry/utils" "7.16.0"
     tslib "^1.9.3"
 
-"@sentry/integrations@^7.16.0":
-  version "7.16.0"
-  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-7.16.0.tgz#fa6a2a2b7275efec5cf67c07eb76297447301ff2"
-  integrity sha512-PJRmFUHOKMf1APOlwxGB7Z6LHzJP4xL6OLSoiwnruRuHaGvdyILA53fr/A6wRMSPyTxJDJpNkcN36cA56mLxYA==
+"@sentry/integrations@^7.17.4":
+  version "7.17.4"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-7.17.4.tgz#facdc4abb1d4714175c7d66bab634a898cc7eead"
+  integrity sha512-9vL0RRLuMnj0mj61THgRhDUCgTGYbRoCT6HmLGrErHjyTG3d7lUgUwTBQPgw9qYLss1uLKoEtRvcxgtW7ef0BA==
   dependencies:
-    "@sentry/types" "7.16.0"
-    "@sentry/utils" "7.16.0"
+    "@sentry/types" "7.17.4"
+    "@sentry/utils" "7.17.4"
     localforage "^1.8.1"
     tslib "^1.9.3"
 
@@ -739,12 +739,25 @@
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.16.0.tgz#79c06ada153a84feb949fa49b1c9d15f91decd79"
   integrity sha512-i6D+OK6d0l/k+VQvRp/Pt21WkDEgVBUIZq+sOkEZJczbcfexVdXKeXXoYTD2vYuFq8Yy28fzlsZaKI+NoH94yQ==
 
+"@sentry/types@7.17.4":
+  version "7.17.4"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.17.4.tgz#476522bc988989101e7aee9eee3c3f8f16fa59ea"
+  integrity sha512-QJj8vO4AtxuzQfJIzDnECSmoxwnS+WJsm1Ta2Cwdy+TUCBJyWpW7aIJJGta76zb9gNPGb3UcAbeEjhMJBJeRMQ==
+
 "@sentry/utils@7.16.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.16.0.tgz#b832520c661d4435808969ee04814ff8e20497b1"
   integrity sha512-3Zh1txg7IRp4kZAdG27YF7K6lD1IZyuAo9KjoPg1Xzqa4DOZyASJuEkbf+rK2a9T4HrtVHHXJUsNbKg8WM3VHg==
   dependencies:
     "@sentry/types" "7.16.0"
+    tslib "^1.9.3"
+
+"@sentry/utils@7.17.4":
+  version "7.17.4"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.17.4.tgz#b8f4fb6a329765b97668b34f6d397e8de2169fef"
+  integrity sha512-ioG0ANy8uiWzig82/e7cc+6C9UOxkyBzJDi1luoQVDH6P0/PvM8GzVU+1iUVUipf8+OL1Jh09GrWnd5wLm3XNQ==
+  dependencies:
+    "@sentry/types" "7.17.4"
     tslib "^1.9.3"
 
 "@types/node@*":
