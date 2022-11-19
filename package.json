@@ -22,7 +22,7 @@
         "uuid": "^9.0.0"
     },
     "scripts": {
-        "start": "node --max_old_space_size=2048 main.js"
+        "start": "node main.js"
     },
     "main": "main.js",
     "engines": {
