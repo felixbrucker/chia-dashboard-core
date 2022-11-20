@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: chia-dashboard
+    env: node
+    repo: https://github.com/felixbrucker/chia-dashboard-core.git
+    region: frankfurt
+    buildCommand: yarn install
+    startCommand: yarn start
+    healthCheckPath: /api/ping
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: DISABLE_SIGNUP
+        value: false
+      - key: DISCORD_CLIENT_ID
+        sync: false
+      - key: DISCORD_CLIENT_SECRET
+        sync: false
+      - key: GITHUB_CLIENT_ID
+        sync: false
+      - key: GITHUB_CLIENT_SECRET
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: JWT_SIGNING_SECRET
+        sync: false
+      - key: LOG_LEVEL
+        value: debug
+      - key: SENTRY_DSN
+        sync: false
+    autoDeploy: true
+    plan: free
