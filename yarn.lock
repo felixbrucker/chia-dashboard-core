@@ -23,13 +23,13 @@
     "@sentry/utils" "7.43.0"
     tslib "^1.9.3"
 
-"@sentry/integrations@^7.43.0":
-  version "7.43.0"
-  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-7.43.0.tgz#937bea068e4876f7be476b2f698534d2176f2c03"
-  integrity sha512-rob7/PAUWFTuodCDlRoB0+7vQ7Fc/LlkvprLlB1Qqt34OIgOll4T72zVSaAXWSHZz7nGU8mS2XdYkRSXbDMK4w==
+"@sentry/integrations@^7.45.0":
+  version "7.45.0"
+  resolved "https://registry.yarnpkg.com/@sentry/integrations/-/integrations-7.45.0.tgz#79166f44af59127bd67824dcaddb4fee254023d7"
+  integrity sha512-2lwBACr7w9YmnilndRH+39Ow97DJIZUPsDMlppu2NNFEZl2fBDpl+YWh7rxuMIpsOKqZkgxVhxWuoZL9gcWvEA==
   dependencies:
-    "@sentry/types" "7.43.0"
-    "@sentry/utils" "7.43.0"
+    "@sentry/types" "7.45.0"
+    "@sentry/utils" "7.45.0"
     localforage "^1.8.1"
     tslib "^1.9.3"
 
@@ -51,12 +51,25 @@
   resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.43.0.tgz#e621257601e9db2a39cdd3bd75e67fe338ed51eb"
   integrity sha512-5XxCWqYWJNoS+P6Ie2ZpUDxLRCt7FTEzmlQkCdjW6MFWOX26hAbF/wEuOTYAFKZXMIXOz0Egofik1e8v1Cg6/A==
 
+"@sentry/types@7.45.0":
+  version "7.45.0"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-7.45.0.tgz#b5e2db7a421f6090398565b0a72fb3bbdc94233a"
+  integrity sha512-iFt7msfUK8LCodFF3RKUyaxy9tJv/gpWhzxUFyNxtuVwlpmd+q6mtsFGn8Af3pbpm8A+MKyz1ebMwXj0PQqknw==
+
 "@sentry/utils@7.43.0":
   version "7.43.0"
   resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.43.0.tgz#ad16efb86b94ffe6dca2ed2b299d5230ba6d815b"
   integrity sha512-f78YfMLcgNU7+suyWFCuQhQlneXXMS+egb0EFZh7iU7kANUPRX5T4b+0C+fwaPm5gA6XfGYskr4ZnzQJLOlSqg==
   dependencies:
     "@sentry/types" "7.43.0"
+    tslib "^1.9.3"
+
+"@sentry/utils@7.45.0":
+  version "7.45.0"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-7.45.0.tgz#e13e075098578557ec3a0decf735cbad6a26ce63"
+  integrity sha512-aTY7qqtNUudd09SH5DVSKMm3iQ6ZeWufduc0I9bPZe6UMM09BDc4KmjmrzRkdQ+VaOmHo7+v+HZKQk5f+AbuTQ==
+  dependencies:
+    "@sentry/types" "7.45.0"
     tslib "^1.9.3"
 
 "@types/node@*":
