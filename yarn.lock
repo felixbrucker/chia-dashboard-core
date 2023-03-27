@@ -617,10 +617,10 @@ mongodb@5.1.0:
   optionalDependencies:
     saslprep "^1.0.3"
 
-mongoose@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-7.0.1.tgz#9afc737d10b3920c2c9b77ac5ac77fd6ff828d3d"
-  integrity sha512-fxm2bPRG457Hb8RLwN8cMCokK8HNem/7g+qp5SrHC7Pt4Z4jqn1+/3cuc8W7uqehKDWEtpirggI7uw08x2ZIjQ==
+mongoose@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-7.0.3.tgz#576375acb436f96cd3350fb63fddbac7ae51ff9c"
+  integrity sha512-3n8vc1/mssuxKa6vfghSocp3MeiCFYzhX36Ok+PsDNNYzHC9tw3rNkAMLemIwZ2jgXqkZ7CfKOxkzjp/d/SWfg==
   dependencies:
     bson "^5.0.1"
     kareem "2.5.1"
