@@ -26,6 +26,6 @@
     },
     "main": "main.js",
     "engines": {
-        "node": "^16"
+        "node": ">=16"
     }
 }
