@@ -19,7 +19,7 @@
         "mongoose": "^7.5.1",
         "qs": "^6.11.2",
         "semver": "^7.5.4",
-        "uuid": "^9.0.0"
+        "uuid": "^9.0.1"
     },
     "scripts": {
         "start": "node main.js"
