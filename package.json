@@ -2,7 +2,7 @@
     "name": "chia-dashboard-core",
     "version": "1.0.0",
     "dependencies": {
-        "@kidkarolis/not-so-fast": "^1.0.1",
+        "@kidkarolis/not-so-fast": "^1.1.0",
         "@koa/cors": "^4.0.0",
         "@sentry/integrations": "^7.74.1",
         "@sentry/node": "^7.74.1",

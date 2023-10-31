@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@kidkarolis/not-so-fast@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@kidkarolis/not-so-fast/-/not-so-fast-1.0.1.tgz#990c8692b6fd40e5d3f366311ad4f0660f240606"
-  integrity sha512-FDU9pm3j23BVh8ECL9GhDlgbfYJUvlhkb4MhzN7cijKE4kGbh+CjWySDjOSCsZmCVc16hezKyLsV+LJzR1GDrg==
+"@kidkarolis/not-so-fast@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@kidkarolis/not-so-fast/-/not-so-fast-1.1.0.tgz#e8618df6de1eacb116e95d3229e43a5304337925"
+  integrity sha512-6ozv16ZzWXIpa/cJw4kKJVtGsDlvsweszM6IEOtomloFpE+77zrJb5ZhICgZPIr3iKXFP15z4FbOGJ0scBLBDQ==
 
 "@koa/cors@^4.0.0":
   version "4.0.0"
