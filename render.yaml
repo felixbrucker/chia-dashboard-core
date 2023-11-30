@@ -4,8 +4,8 @@ services:
     env: node
     repo: https://github.com/felixbrucker/chia-dashboard-core.git
     region: frankfurt
-    buildCommand: yarn install
-    startCommand: yarn start
+    buildCommand: pnpm install
+    startCommand: pnpm start
     healthCheckPath: /api/ping
     envVars:
       - key: DATABASE_URL
