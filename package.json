@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "dependencies": {
         "@kidkarolis/not-so-fast": "^1.1.0",
-        "@koa/cors": "^4.0.0",
+        "@koa/cors": "^5.0.0",
         "@sentry/integrations": "^7.86.0",
         "@sentry/node": "^7.86.0",
         "axios": "^1.6.2",
