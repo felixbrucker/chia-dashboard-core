@@ -9,7 +9,7 @@
         "axios": "^1.6.2",
         "bignumber.js": "^9.1.2",
         "jsonwebtoken": "^9.0.2",
-        "koa": "^2.14.2",
+        "koa": "^2.15.0",
         "koa-bodyparser": "^4.4.1",
         "koa-compress": "^5.1.1",
         "koa-etag": "^4.0.0",
