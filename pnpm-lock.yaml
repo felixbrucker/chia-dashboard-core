@@ -45,8 +45,8 @@ dependencies:
     specifier: ^4.17.21
     version: 4.17.21
   moment:
-    specifier: ^2.29.4
-    version: 2.29.4
+    specifier: ^2.30.1
+    version: 2.30.1
   mongoose:
     specifier: ^8.0.3
     version: 8.0.3
@@ -684,8 +684,8 @@ packages:
       mime-db: 1.52.0
     dev: false
 
-  /moment@2.29.4:
-    resolution: {integrity: sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==}
+  /moment@2.30.1:
+    resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
     dev: false
 
   /mongodb-connection-string-url@2.6.0:
