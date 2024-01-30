@@ -12,8 +12,8 @@ dependencies:
     specifier: ^5.0.0
     version: 5.0.0
   '@sentry/integrations':
-    specifier: ^7.94.1
-    version: 7.94.1
+    specifier: ^7.98.0
+    version: 7.98.0
   '@sentry/node':
     specifier: ^7.94.1
     version: 7.94.1
@@ -97,13 +97,21 @@ packages:
       '@sentry/utils': 7.94.1
     dev: false
 
-  /@sentry/integrations@7.94.1:
-    resolution: {integrity: sha512-Fw7OxLlGkrVAVO9WtBJezrb5IxxItCTuefv2IfKku+A5EhHtH1AhXYjQynmt0TLLYIUlyBWiatpOngBzS2wSxw==}
+  /@sentry/core@7.98.0:
+    resolution: {integrity: sha512-baRUcpCNGyk7cApQHMfqEZJkXdvAKK+z/dVWiMqWc5T5uhzMnPE8/gjP1JZsMtJSQ8g5nHimBdI5TwOyZtxPaA==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.94.1
-      '@sentry/types': 7.94.1
-      '@sentry/utils': 7.94.1
+      '@sentry/types': 7.98.0
+      '@sentry/utils': 7.98.0
+    dev: false
+
+  /@sentry/integrations@7.98.0:
+    resolution: {integrity: sha512-iHPA6oxG2Vkv3irWyWH714vSMwzESmD5fmU8MUWjr7XXzf8XeVqgn3HkftIaAWCIfZu5mDsfOlJ9qvM5Avst5g==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@sentry/core': 7.98.0
+      '@sentry/types': 7.98.0
+      '@sentry/utils': 7.98.0
       localforage: 1.10.0
     dev: false
 
@@ -122,11 +130,23 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /@sentry/types@7.98.0:
+    resolution: {integrity: sha512-pc034ziM0VTETue4bfBcBqTWGy4w0okidtoZJjGVrYAfE95ObZnUGVj/XYIQ3FeCYWIa7NFN2MvdsCS0buwivQ==}
+    engines: {node: '>=8'}
+    dev: false
+
   /@sentry/utils@7.94.1:
     resolution: {integrity: sha512-gQ2EaMpUU1gGH3S+iqpog9gkXbCo8tlhGYA9a5FUtEtER3D3OAlp8dGFwClwzWDAwzjdLT1+X55zmEptU1cP/A==}
     engines: {node: '>=8'}
     dependencies:
       '@sentry/types': 7.94.1
+    dev: false
+
+  /@sentry/utils@7.98.0:
+    resolution: {integrity: sha512-0/LY+kpHxItVRY0xPDXPXVsKRb95cXsGSQf8sVMtfSjz++0bLL1U4k7PFz1c5s2/Vk0B8hS6duRrgMv6dMIZDw==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@sentry/types': 7.98.0
     dev: false
 
   /@types/webidl-conversions@7.0.3:
