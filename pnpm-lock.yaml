@@ -12,8 +12,8 @@ dependencies:
     specifier: ^5.0.0
     version: 5.0.0
   '@sentry/integrations':
-    specifier: ^7.100.1
-    version: 7.100.1
+    specifier: ^7.101.1
+    version: 7.101.1
   '@sentry/node':
     specifier: ^7.101.1
     version: 7.101.1
@@ -89,14 +89,6 @@ packages:
       '@sentry/utils': 7.101.1
     dev: false
 
-  /@sentry/core@7.100.1:
-    resolution: {integrity: sha512-f+ItUge/o9AjlveQq0ZUbQauKlPH1FIJbC1TRaYLJ4KNfOdrsh8yZ29RmWv0cFJ/e+FGTr603gWpRPObF5rM8Q==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@sentry/types': 7.100.1
-      '@sentry/utils': 7.100.1
-    dev: false
-
   /@sentry/core@7.101.1:
     resolution: {integrity: sha512-XSmXXeYT1d4O14eDF3OXPJFUgaN2qYEeIGUztqPX9nBs9/ij8y/kZOayFqlIMnfGvjOUM+63sy/2xDBOpFn6ug==}
     engines: {node: '>=8'}
@@ -105,13 +97,13 @@ packages:
       '@sentry/utils': 7.101.1
     dev: false
 
-  /@sentry/integrations@7.100.1:
-    resolution: {integrity: sha512-RUyZHcsN3Plc8G4hJN3BCMdbwS8ljUY3E3iLjzucA4HroBsGk5AMc6n7Pp/QqFIRgxrPjKEgA52Wgy5Nq6dSvw==}
+  /@sentry/integrations@7.101.1:
+    resolution: {integrity: sha512-0kk6773Lg2Pa1cUmK1VtxaLLAmpIXcT3qYPlYxRXZQJEUpGcjZZ704V7i8SFLhJSsHkXrL/sAGSyM1p+NDF+QA==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.100.1
-      '@sentry/types': 7.100.1
-      '@sentry/utils': 7.100.1
+      '@sentry/core': 7.101.1
+      '@sentry/types': 7.101.1
+      '@sentry/utils': 7.101.1
       localforage: 1.10.0
     dev: false
 
@@ -125,21 +117,9 @@ packages:
       '@sentry/utils': 7.101.1
     dev: false
 
-  /@sentry/types@7.100.1:
-    resolution: {integrity: sha512-fLM+LedHuKzOd8IhXBqaQuym+AA519MGjeczBa5kGakes/BbAsUMwsNfjsKQedp7Kh44RgYF99jwoRPK2oDrXw==}
-    engines: {node: '>=8'}
-    dev: false
-
   /@sentry/types@7.101.1:
     resolution: {integrity: sha512-bwtkQvrCZ6JGc7vqX7TEAKBgkbQFORt84FFS3JQQb8G3efTt9fZd2ReY4buteKQdlALl8h1QWVngTLmI+kyUuw==}
     engines: {node: '>=8'}
-    dev: false
-
-  /@sentry/utils@7.100.1:
-    resolution: {integrity: sha512-Ve6dXr1o6xiBe3VCoJgiutmBKrugryI65EZAbYto5XI+t+PjiLLf9wXtEMF24ZrwImo4Lv3E9Uqza+fWkEbw6A==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@sentry/types': 7.100.1
     dev: false
 
   /@sentry/utils@7.101.1:
