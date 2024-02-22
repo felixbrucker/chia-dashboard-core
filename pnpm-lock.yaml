@@ -23,6 +23,9 @@ dependencies:
   bignumber.js:
     specifier: ^9.1.2
     version: 9.1.2
+  cloudflared:
+    specifier: ^0.5.1
+    version: 0.5.1
   jsonwebtoken:
     specifier: ^9.0.2
     version: 9.0.2
@@ -193,6 +196,12 @@ packages:
       function-bind: 1.1.2
       get-intrinsic: 1.2.2
       set-function-length: 1.1.1
+    dev: false
+
+  /cloudflared@0.5.1:
+    resolution: {integrity: sha512-DQ33z5dBrE32xrHRyA35CtE8WcDgOzefR0/x/gVVa2jSKc54vRTIDwNQXCbXcet3sv2DOVtLWUbdcjxbCYK+OQ==}
+    hasBin: true
+    requiresBuild: true
     dev: false
 
   /co-body@6.1.0:
