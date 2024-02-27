@@ -15,8 +15,8 @@ dependencies:
     specifier: ^7.102.1
     version: 7.102.1
   '@sentry/node':
-    specifier: ^7.101.1
-    version: 7.101.1
+    specifier: ^7.102.1
+    version: 7.102.1
   axios:
     specifier: ^1.6.7
     version: 1.6.7
@@ -83,21 +83,13 @@ packages:
       sparse-bitfield: 3.0.3
     dev: false
 
-  /@sentry-internal/tracing@7.101.1:
-    resolution: {integrity: sha512-ihjWG8x4x0ozx6t+EHoXLKbsPrgzYLCpeBLWyS+M6n3hn6cmHM76c8nZw3ldhUQi5UYL3LFC/JZ50b4oSxtlrg==}
+  /@sentry-internal/tracing@7.102.1:
+    resolution: {integrity: sha512-RkFlFyAC0fQOvBbBqnq0CLmFW5m3JJz9pKbZd5vXPraWAlniKSb1bC/4DF9SlNx0FN1LWG+IU3ISdpzwwTeAGg==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry/core': 7.101.1
-      '@sentry/types': 7.101.1
-      '@sentry/utils': 7.101.1
-    dev: false
-
-  /@sentry/core@7.101.1:
-    resolution: {integrity: sha512-XSmXXeYT1d4O14eDF3OXPJFUgaN2qYEeIGUztqPX9nBs9/ij8y/kZOayFqlIMnfGvjOUM+63sy/2xDBOpFn6ug==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@sentry/types': 7.101.1
-      '@sentry/utils': 7.101.1
+      '@sentry/core': 7.102.1
+      '@sentry/types': 7.102.1
+      '@sentry/utils': 7.102.1
     dev: false
 
   /@sentry/core@7.102.1:
@@ -118,31 +110,19 @@ packages:
       localforage: 1.10.0
     dev: false
 
-  /@sentry/node@7.101.1:
-    resolution: {integrity: sha512-iXSxUT6Zbt/KUY0+fRcW5II6Tgp2zdTfhBW+fQuDt/UUZt7Ypvb+6n4U2oom3LJfttmD7mdjQuT4+vsNImDjTQ==}
+  /@sentry/node@7.102.1:
+    resolution: {integrity: sha512-mb3vmM3SGuCruckPiv/Vafeh89UQavTfpPFoU6Jwe6dSpQ39BO8fO8k8Zev+/nP6r/FKLtX17mJobErHECXsYw==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.101.1
-      '@sentry/core': 7.101.1
-      '@sentry/types': 7.101.1
-      '@sentry/utils': 7.101.1
-    dev: false
-
-  /@sentry/types@7.101.1:
-    resolution: {integrity: sha512-bwtkQvrCZ6JGc7vqX7TEAKBgkbQFORt84FFS3JQQb8G3efTt9fZd2ReY4buteKQdlALl8h1QWVngTLmI+kyUuw==}
-    engines: {node: '>=8'}
+      '@sentry-internal/tracing': 7.102.1
+      '@sentry/core': 7.102.1
+      '@sentry/types': 7.102.1
+      '@sentry/utils': 7.102.1
     dev: false
 
   /@sentry/types@7.102.1:
     resolution: {integrity: sha512-htKorf3t/D0XYtM7foTcmG+rM47rDP6XdbvCcX5gBCuCYlzpM1vqCt2rl3FLktZC6TaIpFRJw1TLfx6m+x5jdA==}
     engines: {node: '>=8'}
-    dev: false
-
-  /@sentry/utils@7.101.1:
-    resolution: {integrity: sha512-Nrg0nrEI3nrOCd9SLJ/WGzxS5KMQE4cryLOvrDcHJRWpsSyGBF1hLLerk84Nsw/0myMsn7zTYU+xoq7idNsX5A==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@sentry/types': 7.101.1
     dev: false
 
   /@sentry/utils@7.102.1:
