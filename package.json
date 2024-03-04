@@ -5,7 +5,7 @@
         "@kidkarolis/not-so-fast": "^1.1.0",
         "@koa/cors": "^5.0.0",
         "@sentry/integrations": "^7.102.1",
-        "@sentry/node": "^7.102.1",
+        "@sentry/node": "^7.105.0",
         "axios": "^1.6.7",
         "bignumber.js": "^9.1.2",
         "cloudflared": "^0.5.1",
