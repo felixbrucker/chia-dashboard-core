@@ -10,7 +10,7 @@
         "bignumber.js": "^9.1.2",
         "cloudflared": "^0.5.1",
         "jsonwebtoken": "^9.0.2",
-        "koa": "^2.15.0",
+        "koa": "^2.15.2",
         "koa-bodyparser": "^4.4.1",
         "koa-compress": "^5.1.1",
         "koa-etag": "^4.0.0",
