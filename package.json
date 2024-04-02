@@ -6,7 +6,7 @@
         "@koa/cors": "^5.0.0",
         "@sentry/integrations": "^7.106.1",
         "@sentry/node": "^7.106.1",
-        "axios": "^1.6.7",
+        "axios": "^1.6.8",
         "bignumber.js": "^9.1.2",
         "cloudflared": "^0.5.1",
         "jsonwebtoken": "^9.0.2",
