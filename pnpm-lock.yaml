@@ -54,8 +54,8 @@ dependencies:
     specifier: ^8.3.3
     version: 8.3.3
   qs:
-    specifier: ^6.12.0
-    version: 6.12.0
+    specifier: ^6.12.1
+    version: 6.12.1
   semver:
     specifier: ^7.6.0
     version: 7.6.0
@@ -212,7 +212,7 @@ packages:
     resolution: {integrity: sha512-m7pOT6CdLN7FuXUcpuz/8lfQ/L77x8SchHCF4G0RBTJO20Wzmhn5Sp4/5WsKy8OSpifBSUrmg83qEqaDHdyFuQ==}
     dependencies:
       inflation: 2.1.0
-      qs: 6.12.0
+      qs: 6.12.1
       raw-body: 2.5.2
       type-is: 1.6.18
     dev: false
@@ -807,8 +807,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /qs@6.12.0:
-    resolution: {integrity: sha512-trVZiI6RMOkO476zLGaBIzszOdFPnCCXHPG9kn0yuS1uz6xdVxPfZdB3vUig9pxPFDM9BRAgz/YUIVQ1/vuiUg==}
+  /qs@6.12.1:
+    resolution: {integrity: sha512-zWmv4RSuB9r2mYQw3zxQuHWeU+42aKi1wWig/j4ele4ygELZ7PEO6MM7rim9oAQH2A5MWfsAVf/jPvTPgCbvUQ==}
     engines: {node: '>=0.6'}
     dependencies:
       side-channel: 1.0.6
