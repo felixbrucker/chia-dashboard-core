@@ -12,8 +12,8 @@ dependencies:
     specifier: ^5.0.0
     version: 5.0.0
   '@sentry/integrations':
-    specifier: ^7.112.2
-    version: 7.112.2
+    specifier: ^7.114.0
+    version: 7.114.0
   '@sentry/node':
     specifier: ^7.112.2
     version: 7.112.2
@@ -100,6 +100,14 @@ packages:
       '@sentry/utils': 7.112.2
     dev: false
 
+  /@sentry/core@7.114.0:
+    resolution: {integrity: sha512-YnanVlmulkjgZiVZ9BfY9k6I082n+C+LbZo52MTvx3FY6RE5iyiPMpaOh67oXEZRWcYQEGm+bKruRxLVP6RlbA==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@sentry/types': 7.114.0
+      '@sentry/utils': 7.114.0
+    dev: false
+
   /@sentry/integrations@7.112.2:
     resolution: {integrity: sha512-ioC2yyU6DqtLkdmWnm87oNvdn2+9oKctJeA4t+jkS6JaJ10DcezjCwiLscX4rhB9aWJV3IWF7Op0O6K3w0t2Hg==}
     engines: {node: '>=8'}
@@ -107,6 +115,16 @@ packages:
       '@sentry/core': 7.112.2
       '@sentry/types': 7.112.2
       '@sentry/utils': 7.112.2
+      localforage: 1.10.0
+    dev: false
+
+  /@sentry/integrations@7.114.0:
+    resolution: {integrity: sha512-BJIBWXGKeIH0ifd7goxOS29fBA8BkEgVVCahs6xIOXBjX1IRS6PmX0zYx/GP23nQTfhJiubv2XPzoYOlZZmDxg==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@sentry/core': 7.114.0
+      '@sentry/types': 7.114.0
+      '@sentry/utils': 7.114.0
       localforage: 1.10.0
     dev: false
 
@@ -126,11 +144,23 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /@sentry/types@7.114.0:
+    resolution: {integrity: sha512-tsqkkyL3eJtptmPtT0m9W/bPLkU7ILY7nvwpi1hahA5jrM7ppoU0IMaQWAgTD+U3rzFH40IdXNBFb8Gnqcva4w==}
+    engines: {node: '>=8'}
+    dev: false
+
   /@sentry/utils@7.112.2:
     resolution: {integrity: sha512-OjLh0hx0t1EcL4ZIjf+4svlmmP+tHUDGcr5qpFWH78tjmkPW4+cqPuZCZfHSuWcDdeiaXi8TnYoVRqDcJKK/eQ==}
     engines: {node: '>=8'}
     dependencies:
       '@sentry/types': 7.112.2
+    dev: false
+
+  /@sentry/utils@7.114.0:
+    resolution: {integrity: sha512-319N90McVpupQ6vws4+tfCy/03AdtsU0MurIE4+W5cubHME08HtiEWlfacvAxX+yuKFhvdsO4K4BB/dj54ideg==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@sentry/types': 7.114.0
     dev: false
 
   /@types/webidl-conversions@7.0.3:
