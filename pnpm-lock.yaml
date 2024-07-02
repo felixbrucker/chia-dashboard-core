@@ -27,8 +27,8 @@ importers:
         specifier: ^9.1.2
         version: 9.1.2
       cloudflared:
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.5.2
+        version: 0.5.2
       jsonwebtoken:
         specifier: ^9.0.2
         version: 9.0.2
@@ -157,8 +157,8 @@ packages:
     resolution: {integrity: sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==}
     engines: {node: '>= 0.4'}
 
-  cloudflared@0.5.1:
-    resolution: {integrity: sha512-DQ33z5dBrE32xrHRyA35CtE8WcDgOzefR0/x/gVVa2jSKc54vRTIDwNQXCbXcet3sv2DOVtLWUbdcjxbCYK+OQ==}
+  cloudflared@0.5.2:
+    resolution: {integrity: sha512-drvrnjGDBUTjDvUgXHrMzqu+PiZ2rdYizr86H18oKy3ak+YjZg1T3RsrpJPBnwQl81/LiH6LYSH6MN9TLR0fkA==}
     hasBin: true
 
   co-body@6.1.0:
@@ -690,7 +690,7 @@ snapshots:
       get-intrinsic: 1.2.4
       set-function-length: 1.2.2
 
-  cloudflared@0.5.1: {}
+  cloudflared@0.5.2: {}
 
   co-body@6.1.0:
     dependencies:
