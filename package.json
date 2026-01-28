@@ -28,5 +28,13 @@
     "main": "main.js",
     "engines": {
         "node": ">=18"
+    },
+    "pnpm": {
+        "ignoredBuiltDependencies": [
+            "cloudflared"
+        ],
+        "onlyBuiltDependencies": [
+            "cloudflared"
+        ]
     }
 }
